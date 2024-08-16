@@ -1,31 +1,58 @@
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
-body {
-   
+
+body {  
     font-family: sans-serif;
     color: white;
+}
 
- 
+header {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    position: fixed;
+    gap: 50px;
+    padding: 40px;
+}
+
+nav {
+   display: flex;
+   flex-direction: row;
+    gap: 30px;    
 }
 
 .image {
     width: 100svw;
     height: 100svh;
-    display: flex;
-    justify-content: center;
-    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ .container {
+position: relative;
+top: 420px;
+left: 40px;
+text-align: left;
 }
 
 a {
     color: white;
+    font-size: 13px;
+    font-weight: 700;
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .image1 {
-    background-image: url("https://cdn.wccftech.com/wp-content/uploads/2016/09/spacee-scaled.jpg")
+    background-image: url("https://wallpapers.com/images/hd/dark-galaxy-2879-x-1763-wallpaper-88wgkqeydw6q40r2.jpg");
 }
 
 .image2 {
@@ -36,35 +63,42 @@ a {
     background-image: url("https://static.vecteezy.com/system/resources/thumbnails/010/645/796/small_2x/nebula-and-galaxies-in-space-3d-free-photo.jpg")
 }
 
-header {
-    display: flex;
-    flex-direction: row;
-    align-items:center;
-    position: fixed;
-    gap: 30px;
-    padding: 25px;
- 
-
-}
-
-nav {
-   display: flex;
-   flex-direction: row;
-   gap: 20px;
-    
-    
-}
-
 button {
     height: 50px;
     width: 250px;
     background-color: transparent;
     color: white;
+    font-size: 15px;
     border: 2px solid white;
-    padding: 20px;
     text-align: left;
+    font-weight: bold;
+    padding-left: 40px;
 }
 
+.element1 {
+    padding-bottom: 15px;
+    font-size: 19px;
+    font-weight: 10;
+}
+
+ .element2 {
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+
+
+
+.element3:hover {
+    background-color: white;
+    color: black;
+}
+
+.back_to_top {
+    position: fixed;
+    background-color: red;
+
+}
+ 
 footer {
     background-color: black;
     color: #555;
