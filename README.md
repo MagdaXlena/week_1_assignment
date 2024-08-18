@@ -1,10 +1,10 @@
 # week_1_assignment
 
 The requirements achieved:
-1. The semantic tags used: <header>, <nav>, <footer>.
+1. The semantic tags used: header, nav and footer.
 2. CSS positioning applied.
-3. CSS Flexbox used in the <header> and <nav> element.
-4. Backgroud images applied.
+3. CSS Flexbox used in Header and Nav.
+4. Background images applied.
 
 The stretch requirements achieved:
 1. Smooth scrolling for internal links implemented. 
