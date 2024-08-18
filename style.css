@@ -35,7 +35,7 @@ nav {
 
  .container {
 position: relative;
-top: 420px;
+top: 550px;
 left: 40px;
 text-align: left;
 }
@@ -73,6 +73,7 @@ button {
     text-align: left;
     font-weight: bold;
     padding-left: 40px;
+    cursor: pointer;
 }
 
 .element1 {
@@ -93,15 +94,26 @@ button {
     color: black;
 }
 
-.back_to_top {
-    position: fixed;
-    background-color: red;
-
-}
  
 footer {
     background-color: black;
     color: #555;
     text-align:center;
     padding: 30px;
+}
+
+.scrollToTop {
+    font-size: 12px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border: 1px solid grey;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px; 
+}
+
+.scrollToTop:hover {
+    background-color: darkgray;
+    color: black;
 }
